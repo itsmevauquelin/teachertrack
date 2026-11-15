@@ -42,7 +42,19 @@ jobs:
           git add data/monitor.json data/source_snapshots.json
           if ! git diff --cached --quiet; then
             git commit -m "Update daily source check"
-            git push
+            # The default branch may receive edits while a check is running.
+            # Rebase the generated log onto the latest main before publishing.
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "Could not push monitored changes after 3 attempts"
+                exit 1
+              fi
+              sleep 2
+            done
           fi
       - name: Setup Pages
         uses: actions/configure-pages@v5
