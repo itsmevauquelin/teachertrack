@@ -1,0 +1,719 @@
+{
+  "cycle": "2027/2028",
+  "researchDate": "2026-11-15",
+  "locations": [
+    "Ústí nad Labem",
+    "Liberec",
+    "Olomouc",
+    "Brno"
+  ],
+  "sources": [
+    {
+      "id": "ujep_offer",
+      "label": "UJEP · study offerings",
+      "url": "https://www.pf.ujep.cz/studium/nabidka-studia/",
+      "type": "html",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ]
+    },
+    {
+      "id": "ujep_admissions",
+      "label": "UJEP · admissions hub",
+      "url": "https://www.pf.ujep.cz/studium/prijimaci-rizeni/",
+      "type": "html",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ]
+    },
+    {
+      "id": "ujep_2026",
+      "label": "UJEP · 2026/27 formal rules (prior cycle)",
+      "url": "https://www.pf.ujep.cz/wp-content/uploads/2026/01/studijni-programy-a-podminky-prijimaciho-rizeni-2026-27.pdf",
+      "type": "pdf",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ]
+    },
+    {
+      "id": "ujep_schedule",
+      "label": "UJEP · study office FAQ",
+      "url": "https://www.pf.ujep.cz/studium/studijni-oddeleni/",
+      "type": "html",
+      "programs": [
+        "ujep-solo"
+      ]
+    },
+    {
+      "id": "tul_program",
+      "label": "TUL · teacher-training programme",
+      "url": "https://www.fp.tul.cz/uchazec/co-studovat-na-fp/ucitelstvi-pro-stredni-skoly-a-2-stupen-zakladnich-skol",
+      "type": "html",
+      "programs": [
+        "tul-combined",
+        "tul-fulltime"
+      ]
+    },
+    {
+      "id": "tul_admissions",
+      "label": "TUL · FP admissions",
+      "url": "https://www.fp.tul.cz/uchazec/prijimaci-rizeni",
+      "type": "html",
+      "programs": [
+        "tul-combined",
+        "tul-fulltime"
+      ]
+    },
+    {
+      "id": "upol_2027",
+      "label": "UPOL · 2027/28 official admissions rules",
+      "url": "https://www.pdf.upol.cz/fileadmin/userdata/PdF/STUDIJNI/2026_2027/Prijimacky/Podminky_prijimaciho_rizeni_PDF_2027_2028.pdf",
+      "type": "pdf",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ]
+    },
+    {
+      "id": "upol_admissions",
+      "label": "UPOL · admissions hub",
+      "url": "https://www.pdf.upol.cz/pro-uchazece/prijimaci-rizeni-bc-a-mgr/",
+      "type": "html",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ]
+    },
+    {
+      "id": "upol_english",
+      "label": "UPOL · English teaching department",
+      "url": "https://www.pdf.upol.cz/ucj/uchazeci/anglicky-jazyk/",
+      "type": "html",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ]
+    },
+    {
+      "id": "muni_ped",
+      "label": "MUNI PdF · primary/lower secondary English teaching",
+      "url": "https://www.ped.muni.cz/pro-uchazece/navazujici-magisterske-studium/23863-ucitelstvi-anglickeho-jazyka-pro-zakladni-skoly",
+      "type": "html",
+      "programs": [
+        "muni-ped-combined",
+        "muni-ped-fulltime"
+      ]
+    },
+    {
+      "id": "muni_ped_admissions",
+      "label": "MUNI PdF · NMgr admissions hub",
+      "url": "https://www.ped.muni.cz/pro-uchazece/navazujici-magisterske-studium",
+      "type": "html",
+      "programs": [
+        "muni-ped-combined",
+        "muni-ped-fulltime"
+      ]
+    },
+    {
+      "id": "muni_ff",
+      "label": "MUNI FF · upper-secondary English teaching",
+      "url": "https://www.phil.muni.cz/pro-uchazece/navazujici-magisterske-studium/24421-ucitelstvi-anglickeho-jazyka-a-literatury-pro-stredni-skoly",
+      "type": "html",
+      "programs": [
+        "muni-ff-combined",
+        "muni-ff-fulltime"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "ujep-solo",
+      "university": "UJEP",
+      "faculty": "Pedagogická fakulta",
+      "city": "Ústí nad Labem",
+      "mode": "Combined",
+      "path": "English only",
+      "title": "Učitelství anglického jazyka a literatury pro střední školy",
+      "subtitle": "English teaching · single-subject",
+      "level": "Upper secondary",
+      "cycleOffer": "unknown",
+      "priority": 1,
+      "schedule": "Usually Tuesdays from 09:00 during term (faculty FAQ)",
+      "scheduleStatus": "confirmed",
+      "scheduleCycle": "Current faculty FAQ; reconfirm for autumn 2027",
+      "exam": "2027/28: unknown. In 2026/27: oral interview in English covering linguistics, literature, cultural studies and didactics; potential waiver for exceptional BA final-exam results.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Bachelor's degree in a related English/education field; exact 2027/28 eligibility still unpublished.",
+      "eligibilityStatus": "unknown",
+      "note": "2026/27 rules expressly offered the English-only combined route; 2027/28 intake not yet verified.",
+      "sources": [
+        "ujep_offer",
+        "ujep_admissions",
+        "ujep_2026",
+        "ujep_schedule"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit electronic application",
+          "basis": "planning"
+        },
+        {
+          "id": "fee",
+          "text": "Pay application fee",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Bachelor's diploma or approved completion proof",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "reading",
+          "text": "Prepare fiction and academic reading lists for interview",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "interview",
+          "text": "Verify 2027/28 interview or exam-waiver rules",
+          "basis": "unknown"
+        },
+        {
+          "id": "schedule",
+          "text": "Check whether Tuesday teaching fits your work schedule",
+          "basis": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "ujep-dual",
+      "university": "UJEP",
+      "faculty": "Pedagogická + Filozofická fakulta",
+      "city": "Ústí nad Labem",
+      "mode": "Full-time",
+      "path": "English + Social Studies",
+      "title": "Učitelství anglického jazyka a literatury pro SŠ + učitelství společenských věd",
+      "subtitle": "Two-subject pathway · English + Social Studies",
+      "level": "Upper secondary",
+      "cycleOffer": "unknown",
+      "priority": 4,
+      "schedule": "Full-time; exact days unknown",
+      "scheduleStatus": "unknown",
+      "exam": "2027/28 unknown; 2026/27 English admission route had oral interview requirements.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Match of prior bachelor's subjects and rules to be verified for 2027/28.",
+      "eligibilityStatus": "unknown",
+      "note": "English + Social Studies was listed as an available UJEP combination for 2026/27, not confirmed for 2027/28.",
+      "sources": [
+        "ujep_offer",
+        "ujep_admissions",
+        "ujep_2026"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit electronic application",
+          "basis": "planning"
+        },
+        {
+          "id": "fee",
+          "text": "Pay application fee",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Bachelor's diploma / completion proof",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "compatibility",
+          "text": "Verify both subject components are recognised",
+          "basis": "unknown"
+        },
+        {
+          "id": "interview",
+          "text": "Check admission tests for both faculties",
+          "basis": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tul-combined",
+      "university": "TUL",
+      "faculty": "Fakulta přírodovědně-humanitní a pedagogická",
+      "city": "Liberec",
+      "mode": "Combined",
+      "path": "English + Social Studies",
+      "title": "Učitelství pro střední školy a 2. stupeň ZŠ",
+      "subtitle": "English + Základy společenských věd · two specialisations",
+      "level": "Upper secondary + lower secondary",
+      "cycleOffer": "unknown",
+      "priority": 1,
+      "schedule": "Usually all-day Friday and Saturday during term",
+      "scheduleStatus": "confirmed",
+      "scheduleCycle": "Current programme description; verify final timetable",
+      "exam": "2027/28 unknown. In 2026/27: written tests in both subjects, with possible exemption for qualifying matching bachelor's combinations.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "2026/27 required a related education-focused bachelor's subject combination; confirm 2027/28 conditions and exemption eligibility.",
+      "eligibilityStatus": "unknown",
+      "note": "2026/27 second round specifically listed combined English + Social Studies. The TUL programme normally requires two different specialisations; English-only not confirmed.",
+      "sources": [
+        "tul_program",
+        "tul_admissions"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit STAG electronic application",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "fee",
+          "text": "Pay application fee",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Bachelor's diploma or university completion confirmation",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "match",
+          "text": "Check exact compatibility of English + Social Studies bachelor's subjects",
+          "basis": "unknown"
+        },
+        {
+          "id": "waiver",
+          "text": "Check 2027/28 eligibility for an entrance-test exemption",
+          "basis": "unknown"
+        },
+        {
+          "id": "practice",
+          "text": "Submit declaration acknowledging full pedagogical placement workload",
+          "basis": "prior-cycle"
+        }
+      ]
+    },
+    {
+      "id": "tul-fulltime",
+      "university": "TUL",
+      "faculty": "Fakulta přírodovědně-humanitní a pedagogická",
+      "city": "Liberec",
+      "mode": "Full-time",
+      "path": "English + Social Studies",
+      "title": "Učitelství pro střední školy a 2. stupeň ZŠ",
+      "subtitle": "English + Základy společenských věd · two specialisations",
+      "level": "Upper secondary + lower secondary",
+      "cycleOffer": "unknown",
+      "priority": 4,
+      "schedule": "Full-time; exact timetable unknown",
+      "scheduleStatus": "unknown",
+      "exam": "2027/28 unknown. Prior cycle prescribed two subject tests with certain exemptions.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Exact 2027/28 conditions unknown; prior cycle required matching previous studies or approved equivalent background.",
+      "eligibilityStatus": "unknown",
+      "note": "Combination existed in 2026/27 second-round full-time offerings. 2027/28 availability must be rechecked.",
+      "sources": [
+        "tul_program",
+        "tul_admissions"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit STAG electronic application",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Provide bachelor's completion proof",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "match",
+          "text": "Verify subject matching / admission waiver",
+          "basis": "unknown"
+        },
+        {
+          "id": "exams",
+          "text": "Prepare for both subject entrance examinations if required",
+          "basis": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "upol-combined",
+      "university": "UPOL",
+      "faculty": "Pedagogická fakulta",
+      "city": "Olomouc",
+      "mode": "Combined",
+      "path": "English only",
+      "title": "Učitelství anglického jazyka pro základní školy",
+      "subtitle": "Completus (English only) · also MA/MI variants listed",
+      "level": "Primary + lower secondary",
+      "cycleOffer": "confirmed",
+      "priority": 1,
+      "schedule": "Combined; actual 2027/28 class days unknown",
+      "scheduleStatus": "unknown",
+      "exam": "TAU – Test znalostí pro Učitelství anglického jazyka; admission test required in 2027/28 rules.",
+      "examStatus": "confirmed",
+      "deadline": "2027-03-15",
+      "deadlineStatus": "confirmed",
+      "eligibility": "Completed higher-education qualification must be documented; exact subject-level compatibility should be checked in the university programme catalogue.",
+      "eligibilityStatus": "confirmed",
+      "note": "2027/28 official conditions list English teaching under combined NMgr as MA, MI and COM. Applications open 1 Nov 2026. Entrance-exam period: 19 Apr–11 Jun 2027. Fee: 790 Kč.",
+      "sources": [
+        "upol_2027",
+        "upol_admissions",
+        "upol_english"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit electronic application by 15 March 2027",
+          "basis": "confirmed"
+        },
+        {
+          "id": "fee",
+          "text": "Pay admissions fee (790 Kč)",
+          "basis": "confirmed"
+        },
+        {
+          "id": "bachelor",
+          "text": "Prepare officially certified diploma copy / authorised electronic conversion",
+          "basis": "confirmed"
+        },
+        {
+          "id": "test",
+          "text": "Prepare for TAU English-teaching entrance test",
+          "basis": "confirmed"
+        },
+        {
+          "id": "invitation",
+          "text": "Monitor online application for exam invitation",
+          "basis": "confirmed"
+        },
+        {
+          "id": "compatibility",
+          "text": "Verify bachelor's subject compatibility in programme catalogue",
+          "basis": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "upol-fulltime",
+      "university": "UPOL",
+      "faculty": "Pedagogická fakulta",
+      "city": "Olomouc",
+      "mode": "Full-time",
+      "path": "English only",
+      "title": "Učitelství anglického jazyka pro základní školy",
+      "subtitle": "Completus (English only) · also MA/MI variants listed",
+      "level": "Primary + lower secondary",
+      "cycleOffer": "confirmed",
+      "priority": 3,
+      "schedule": "Full-time; precise timetable unknown",
+      "scheduleStatus": "unknown",
+      "exam": "TAU – Test znalostí pro Učitelství anglického jazyka in 2027/28.",
+      "examStatus": "confirmed",
+      "deadline": "2027-03-15",
+      "deadlineStatus": "confirmed",
+      "eligibility": "Higher-education diploma required; exact prior-subject match requires catalogue check.",
+      "eligibilityStatus": "confirmed",
+      "note": "2027/28 official conditions list full-time English as MA, MI and COM. Applications open 1 Nov 2026; exam period 19 Apr–11 Jun 2027.",
+      "sources": [
+        "upol_2027",
+        "upol_admissions",
+        "upol_english"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit electronic application by 15 March 2027",
+          "basis": "confirmed"
+        },
+        {
+          "id": "fee",
+          "text": "Pay admissions fee (790 Kč)",
+          "basis": "confirmed"
+        },
+        {
+          "id": "bachelor",
+          "text": "Prepare certified diploma / digital conversion",
+          "basis": "confirmed"
+        },
+        {
+          "id": "test",
+          "text": "Prepare TAU entrance test",
+          "basis": "confirmed"
+        },
+        {
+          "id": "invitation",
+          "text": "Check electronic applicant account for invitation",
+          "basis": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "muni-ped-combined",
+      "university": "MUNI",
+      "faculty": "Pedagogická fakulta",
+      "city": "Brno",
+      "mode": "Combined",
+      "path": "English only",
+      "title": "Učitelství anglického jazyka pro základní školy",
+      "subtitle": "Single-subject · combined teaching route",
+      "level": "Primary + lower secondary",
+      "cycleOffer": "unknown",
+      "priority": 1,
+      "schedule": "Usually Fridays every fortnight; some Saturdays for common core",
+      "scheduleStatus": "confirmed",
+      "exam": "2027/28 exam decision and possible exemptions not confirmed; university programme page still cites 2026/27 criteria.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Related bachelor's in English for Education, English philology or comparable field; 2027/28 details pending.",
+      "eligibilityStatus": "unknown",
+      "note": "Current programme page confirms combined single-subject study; practices are substantial (360 h published) and 2027/28 intake/terms are unverified.",
+      "sources": [
+        "muni_ped",
+        "muni_ped_admissions"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit IS MUNI application when 2027/28 opens",
+          "basis": "unknown"
+        },
+        {
+          "id": "fee",
+          "text": "Confirm 2027/28 admissions fee",
+          "basis": "unknown"
+        },
+        {
+          "id": "bachelor",
+          "text": "Bachelor's diploma and/or completion proof",
+          "basis": "planning"
+        },
+        {
+          "id": "exams",
+          "text": "Check faculty entrance-test requirements",
+          "basis": "unknown"
+        },
+        {
+          "id": "practice",
+          "text": "Plan teacher-practice availability alongside work",
+          "basis": "confirmed"
+        }
+      ]
+    },
+    {
+      "id": "muni-ped-fulltime",
+      "university": "MUNI",
+      "faculty": "Pedagogická fakulta",
+      "city": "Brno",
+      "mode": "Full-time",
+      "path": "English + Civic Education",
+      "title": "Učitelství anglického jazyka pro ZŠ + Učitelství občanské výchovy pro ZŠ",
+      "subtitle": "Two-subject pathway · English + civic education",
+      "level": "Lower secondary",
+      "cycleOffer": "unknown",
+      "priority": 5,
+      "schedule": "Full-time; precise timetable unknown",
+      "scheduleStatus": "unknown",
+      "exam": "2027/28 conditions unknown.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Prior-subject compatibility and 2027/28 offered pair need verification.",
+      "eligibilityStatus": "unknown",
+      "note": "Programme page lists this pairing in full-time study; not listed for combined English + Civic Education. Do not treat it as equivalent to combined English + Social Studies.",
+      "sources": [
+        "muni_ped",
+        "muni_ped_admissions"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit MUNI electronic application",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Prepare degree documentation",
+          "basis": "planning"
+        },
+        {
+          "id": "match",
+          "text": "Verify compatibility of Social Studies with Civic Education",
+          "basis": "unknown"
+        },
+        {
+          "id": "exams",
+          "text": "Check both subjects' 2027/28 entrance conditions",
+          "basis": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "muni-ff-combined",
+      "university": "MUNI",
+      "faculty": "Filozofická fakulta",
+      "city": "Brno",
+      "mode": "Combined",
+      "path": "English only",
+      "title": "Učitelství anglického jazyka a literatury pro střední školy",
+      "subtitle": "Single-subject · upper-secondary teaching",
+      "level": "Upper secondary",
+      "cycleOffer": "unknown",
+      "priority": 1,
+      "schedule": "Teaching every Friday (faculty programme page)",
+      "scheduleStatus": "confirmed",
+      "exam": "2027/28 unknown. In 2026/27: C2-level written test and group oral interview; normally ≥70% needed on written test to proceed.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Bachelor's degree plus English at least C1+ per programme description; 2027/28 admission specifics pending.",
+      "eligibilityStatus": "unknown",
+      "note": "Single-subject combined route confirmed on current programme page, but its admissions section refers to 2026/27, not 2027/28.",
+      "sources": [
+        "muni_ff"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit IS MUNI application",
+          "basis": "planning"
+        },
+        {
+          "id": "fee",
+          "text": "Verify fee and deadline for 2027/28",
+          "basis": "unknown"
+        },
+        {
+          "id": "bachelor",
+          "text": "Prepare bachelor's diploma / completion proof",
+          "basis": "planning"
+        },
+        {
+          "id": "test",
+          "text": "Prepare C2-level English test if carried forward",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "reading",
+          "text": "Read interview literature and prepare teaching examples",
+          "basis": "prior-cycle"
+        },
+        {
+          "id": "waiver",
+          "text": "Check eligibility for written-test waiver",
+          "basis": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "muni-ff-fulltime",
+      "university": "MUNI",
+      "faculty": "Filozofická fakulta",
+      "city": "Brno",
+      "mode": "Full-time",
+      "path": "English + Social Studies",
+      "title": "Učitelství anglického jazyka a literatury pro SŠ + učitelství základů společenských věd",
+      "subtitle": "Two-subject · English + Social Studies",
+      "level": "Upper secondary",
+      "cycleOffer": "unknown",
+      "priority": 4,
+      "schedule": "Full-time; exact timetable unknown",
+      "scheduleStatus": "unknown",
+      "exam": "2027/28 unknown; the English component's 2026/27 exam was C2 written + oral interview.",
+      "examStatus": "unknown",
+      "deadline": null,
+      "deadlineStatus": "unknown",
+      "eligibility": "Bachelor's degree and subject requirements; 2027/28 combination and entry conditions still need checking.",
+      "eligibilityStatus": "unknown",
+      "note": "This combination is listed on current programme page as prezenční; combined pairing not verified.",
+      "sources": [
+        "muni_ff"
+      ],
+      "checklist": [
+        {
+          "id": "application",
+          "text": "Submit MUNI electronic application",
+          "basis": "planning"
+        },
+        {
+          "id": "bachelor",
+          "text": "Bachelor's diploma / completion proof",
+          "basis": "planning"
+        },
+        {
+          "id": "match",
+          "text": "Confirm English and Social Studies compatibility",
+          "basis": "unknown"
+        },
+        {
+          "id": "test",
+          "text": "Check entry tests for each component",
+          "basis": "unknown"
+        }
+      ]
+    }
+  ],
+  "baselineLog": [
+    {
+      "id": "baseline-upol-2027",
+      "date": "2026-11-15",
+      "type": "baseline",
+      "severity": "high",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ],
+      "title": "2027/28 published: UPOL English teaching",
+      "detail": "Official 2027/28 admissions PDF confirms both study modes, TAU test, 15 March deadline and 790 Kč fee. This is a baseline finding, not an inferred overnight change.",
+      "sourceId": "upol_2027"
+    },
+    {
+      "id": "baseline-await-2027",
+      "date": "2026-11-15",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual",
+        "tul-combined",
+        "tul-fulltime",
+        "muni-ped-combined",
+        "muni-ped-fulltime",
+        "muni-ff-combined",
+        "muni-ff-fulltime"
+      ],
+      "title": "2027/28-specific admissions rules need verification",
+      "detail": "Current programme pages or previous-cycle requirements exist, but full 2027/28 admission terms have not been verified for these pathways.",
+      "sourceId": null
+    },
+    {
+      "id": "baseline-schedule",
+      "date": "2026-11-15",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo"
+      ],
+      "title": "Combined at UJEP is normally on Tuesdays",
+      "detail": "UJEP's faculty FAQ says its combined English master's teaching runs on Tuesdays from 09:00 during term. Check whether this fits employment plans.",
+      "sourceId": "ujep_schedule"
+    }
+  ]
+}
