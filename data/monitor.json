@@ -1,6 +1,15 @@
 {
-  "lastChecked": "2026-11-15T14:18:01.615583+00:00",
+  "lastChecked": "2026-11-16T13:42:26.870192+00:00",
   "dailyChecks": [
+    {
+      "date": "2026-11-16",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
+      "sources": 12,
+      "unchanged": 8,
+      "changed": 1,
+      "baselined": 0,
+      "failed": 3
+    },
     {
       "date": "2026-11-15",
       "checkedAt": "2026-11-15T14:18:01.615583+00:00",
@@ -12,6 +21,62 @@
     }
   ],
   "events": [
+    {
+      "id": "change-muni_ped_admissions-9e4fcf0b7859",
+      "date": "2026-11-16",
+      "type": "changed",
+      "severity": "high",
+      "programs": [
+        "muni-ped-combined",
+        "muni-ped-fulltime"
+      ],
+      "title": "Official source changed · MUNI PdF · NMgr admissions hub",
+      "detail": "Added/edited: Největší plus je opravdu velké množství praxí | Added/edited: které jsme absolvovaly na různých místech a mohly jsme si tak do budoucna vyzkou",
+      "sourceId": "muni_ped_admissions",
+      "requiresReview": true
+    },
+    {
+      "id": "error-upol_english-2026-11-16",
+      "date": "2026-11-16",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ],
+      "title": "Source could not be checked · UPOL · English teaching department",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /ucj/uchazeci/anglicky-jazyk/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] ce",
+      "sourceId": "upol_english",
+      "requiresReview": true
+    },
+    {
+      "id": "error-upol_admissions-2026-11-16",
+      "date": "2026-11-16",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ],
+      "title": "Source could not be checked · UPOL · admissions hub",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /pro-uchazece/prijimaci-rizeni-bc-a-mgr/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY",
+      "sourceId": "upol_admissions",
+      "requiresReview": true
+    },
+    {
+      "id": "error-upol_2027-2026-11-16",
+      "date": "2026-11-16",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "upol-combined",
+        "upol-fulltime"
+      ],
+      "title": "Source could not be checked · UPOL · 2027/28 official admissions rules",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /fileadmin/userdata/PdF/STUDIJNI/2026_2027/Prijimacky/Podminky_prijimaciho_rizeni_PDF_2027_2028.pdf (Caused by SSL",
+      "sourceId": "upol_2027",
+      "requiresReview": true
+    },
     {
       "id": "error-upol_english-2026-11-15",
       "date": "2026-11-15",
@@ -57,74 +122,74 @@
   ],
   "sourceStatuses": {
     "ujep_offer": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "7b9709d36f2057ef781eab76f6b8383ea2043a42eb94bf9a2e0404d31f3f12b6"
     },
     "ujep_admissions": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "75241ff14db4dad0d029944af7a45429c620d9c0b05db663bacce2ba9aea4903"
     },
     "ujep_2026": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "e13b3e98230485f7fa4016a342edfaff665e5e0e1e317fd7588cf7114f12cd71"
     },
     "ujep_schedule": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "08365f5a79a5a9b6aee84edc2419f7ff9b85c078678c6bed812272c16318ebe9"
     },
     "tul_program": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "15f8c65fcf83970986daf2ac4a8ceb0880b1b94479ae5aba29b26f12c542fb84"
     },
     "tul_admissions": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "a2e983ef7ac69535263f4e97981352a46f4c998c841016f312f2385908fa664b"
     },
     "upol_2027": {
       "state": "unavailable",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "error",
       "error": "SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /fileadmin/userdata/PdF/STUDIJNI/2026_2027/Prijimacky/Podminky_prijimaciho_rizeni_PDF_2027_2028.pdf (Caused by SSL"
     },
     "upol_admissions": {
       "state": "unavailable",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "error",
       "error": "SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /pro-uchazece/prijimaci-rizeni-bc-a-mgr/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY"
     },
     "upol_english": {
       "state": "unavailable",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "error",
       "error": "SSLError: HTTPSConnectionPool(host='www.pdf.upol.cz', port=443): Max retries exceeded with url: /ucj/uchazeci/anglicky-jazyk/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] ce"
     },
     "muni_ped": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "dd11cb8ec2e3ea3cc9bf9fc9f5cb1854a7cef5e1fef06b697888f71fe0783634"
     },
     "muni_ped_admissions": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "changed",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
-      "sha256": "3b8ae34c225670b95f54027af41386d837790d92f2e699194d0d9eeec77c7bca"
+      "sha256": "9e4fcf0b78597b02bed107e94ce290c2ad62ea61b78556373124ed03b2bfaa0e"
     },
     "muni_ff": {
-      "state": "baseline",
-      "checkedAt": "2026-11-15T14:18:01.615583+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-16T13:42:26.870192+00:00",
       "http": "ok",
       "sha256": "e6d8721c037154b4add80c10f30ecaa592e1e165818334270619cf97ccea9b80"
     }
