@@ -1,6 +1,15 @@
 {
-  "lastChecked": "2026-11-17T14:29:25.144455+00:00",
+  "lastChecked": "2026-11-18T14:04:22.275729+00:00",
   "dailyChecks": [
+    {
+      "date": "2026-11-18",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
+      "sources": 12,
+      "unchanged": 7,
+      "changed": 1,
+      "baselined": 0,
+      "failed": 4
+    },
     {
       "date": "2026-11-17",
       "checkedAt": "2026-11-17T14:29:25.144455+00:00",
@@ -30,6 +39,75 @@
     }
   ],
   "events": [
+    {
+      "id": "change-muni_ped_admissions-7a12eaf177d4",
+      "date": "2026-11-18",
+      "type": "changed",
+      "severity": "high",
+      "programs": [
+        "muni-ped-combined",
+        "muni-ped-fulltime"
+      ],
+      "title": "Official source changed · MUNI PdF · NMgr admissions hub",
+      "detail": "Added/edited: Studium na Masarykově univerzitě bylo krásné. Užila jsem si ho | Added/edited: byla jsem na svou univerzitu hrdá",
+      "sourceId": "muni_ped_admissions",
+      "requiresReview": true
+    },
+    {
+      "id": "error-ujep_schedule-2026-11-18",
+      "date": "2026-11-18",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo"
+      ],
+      "title": "Source could not be checked · UJEP · study office FAQ",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)",
+      "sourceId": "ujep_schedule",
+      "requiresReview": true
+    },
+    {
+      "id": "error-ujep_2026-2026-11-18",
+      "date": "2026-11-18",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ],
+      "title": "Source could not be checked · UJEP · 2026/27 formal rules (prior cycle)",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)",
+      "sourceId": "ujep_2026",
+      "requiresReview": true
+    },
+    {
+      "id": "error-ujep_admissions-2026-11-18",
+      "date": "2026-11-18",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ],
+      "title": "Source could not be checked · UJEP · admissions hub",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)",
+      "sourceId": "ujep_admissions",
+      "requiresReview": true
+    },
+    {
+      "id": "error-ujep_offer-2026-11-18",
+      "date": "2026-11-18",
+      "type": "attention",
+      "severity": "medium",
+      "programs": [
+        "ujep-solo",
+        "ujep-dual"
+      ],
+      "title": "Source could not be checked · UJEP · study offerings",
+      "detail": "Monitoring failed for this source. This is not evidence that admission rules changed. ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)",
+      "sourceId": "ujep_offer",
+      "requiresReview": true
+    },
     {
       "id": "change-muni_ped_admissions-fd0fbd530b32",
       "date": "2026-11-17",
@@ -145,74 +223,74 @@
   ],
   "sourceStatuses": {
     "ujep_offer": {
-      "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
-      "http": "ok",
-      "sha256": "7b9709d36f2057ef781eab76f6b8383ea2043a42eb94bf9a2e0404d31f3f12b6"
+      "state": "unavailable",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
+      "http": "error",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)"
     },
     "ujep_admissions": {
-      "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
-      "http": "ok",
-      "sha256": "75241ff14db4dad0d029944af7a45429c620d9c0b05db663bacce2ba9aea4903"
+      "state": "unavailable",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
+      "http": "error",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)"
     },
     "ujep_2026": {
-      "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
-      "http": "ok",
-      "sha256": "e13b3e98230485f7fa4016a342edfaff665e5e0e1e317fd7588cf7114f12cd71"
+      "state": "unavailable",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
+      "http": "error",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)"
     },
     "ujep_schedule": {
-      "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
-      "http": "ok",
-      "sha256": "08365f5a79a5a9b6aee84edc2419f7ff9b85c078678c6bed812272c16318ebe9"
+      "state": "unavailable",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
+      "http": "error",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.pf.ujep.cz', port=443): Read timed out. (read timeout=12)"
     },
     "tul_program": {
       "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "15f8c65fcf83970986daf2ac4a8ceb0880b1b94479ae5aba29b26f12c542fb84"
     },
     "tul_admissions": {
       "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "a2e983ef7ac69535263f4e97981352a46f4c998c841016f312f2385908fa664b"
     },
     "upol_2027": {
-      "state": "baseline",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "656615c93ac38546e78419b531b2c21f54534c2ea7f044aca30d93ae92f93ff7"
     },
     "upol_admissions": {
-      "state": "baseline",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "5a6f0e37dfd0f048560e00eb905829c23d1b66b712dc4b32084cde2a04c15981"
     },
     "upol_english": {
-      "state": "baseline",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "6341bf727241086454bbec46f024b271a719c08e4ad6436215cfb9438ff968d6"
     },
     "muni_ped": {
       "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "dd11cb8ec2e3ea3cc9bf9fc9f5cb1854a7cef5e1fef06b697888f71fe0783634"
     },
     "muni_ped_admissions": {
       "state": "changed",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
-      "sha256": "fd0fbd530b321d735ea11045f8dfb1926e4d79b9a84b8dc4f4a99ca47aba6492"
+      "sha256": "7a12eaf177d4b8c669cf578257a4cca5e9ae79e1089d1d21fa1a92ab140f8beb"
     },
     "muni_ff": {
       "state": "unchanged",
-      "checkedAt": "2026-11-17T14:29:25.144455+00:00",
+      "checkedAt": "2026-11-18T14:04:22.275729+00:00",
       "http": "ok",
       "sha256": "e6d8721c037154b4add80c10f30ecaa592e1e165818334270619cf97ccea9b80"
     }
