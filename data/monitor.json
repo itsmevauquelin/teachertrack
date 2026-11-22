@@ -1,6 +1,15 @@
 {
-  "lastChecked": "2026-11-21T13:30:12.789347+00:00",
+  "lastChecked": "2026-11-22T13:23:24.573040+00:00",
   "dailyChecks": [
+    {
+      "date": "2026-11-22",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
+      "sources": 12,
+      "unchanged": 11,
+      "changed": 1,
+      "baselined": 0,
+      "failed": 0
+    },
     {
       "date": "2026-11-21",
       "checkedAt": "2026-11-21T13:30:12.789347+00:00",
@@ -66,6 +75,20 @@
     }
   ],
   "events": [
+    {
+      "id": "change-muni_ped_admissions-8c90d1ce2211",
+      "date": "2026-11-22",
+      "type": "changed",
+      "severity": "high",
+      "programs": [
+        "muni-ped-combined",
+        "muni-ped-fulltime"
+      ],
+      "title": "Official source changed · MUNI PdF · NMgr admissions hub",
+      "detail": "Added/edited: Naučila jsem se mnoho a jsem za to vděčná",
+      "sourceId": "muni_ped_admissions",
+      "requiresReview": true
+    },
     {
       "id": "change-muni_ped_admissions-0d1c9f6a3cda",
       "date": "2026-11-21",
@@ -321,73 +344,73 @@
   "sourceStatuses": {
     "ujep_offer": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "7b9709d36f2057ef781eab76f6b8383ea2043a42eb94bf9a2e0404d31f3f12b6"
     },
     "ujep_admissions": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "75241ff14db4dad0d029944af7a45429c620d9c0b05db663bacce2ba9aea4903"
     },
     "ujep_2026": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "e13b3e98230485f7fa4016a342edfaff665e5e0e1e317fd7588cf7114f12cd71"
     },
     "ujep_schedule": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "08365f5a79a5a9b6aee84edc2419f7ff9b85c078678c6bed812272c16318ebe9"
     },
     "tul_program": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "15f8c65fcf83970986daf2ac4a8ceb0880b1b94479ae5aba29b26f12c542fb84"
     },
     "tul_admissions": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "24bce3a3ab712d2a3f75db6d26a6d6ea19598ba24be71768baee40b76078b1c8"
     },
     "upol_2027": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "656615c93ac38546e78419b531b2c21f54534c2ea7f044aca30d93ae92f93ff7"
     },
     "upol_admissions": {
-      "state": "changed",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "state": "unchanged",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "c797b33de75395939f21f5693741ad27348b474aeccac73aa04f216c1a94b3cb"
     },
     "upol_english": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "6341bf727241086454bbec46f024b271a719c08e4ad6436215cfb9438ff968d6"
     },
     "muni_ped": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "dd11cb8ec2e3ea3cc9bf9fc9f5cb1854a7cef5e1fef06b697888f71fe0783634"
     },
     "muni_ped_admissions": {
       "state": "changed",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
-      "sha256": "0d1c9f6a3cda9b1fb961d8b135421daff4df5dd14b8925cc0e68af50278fba10"
+      "sha256": "8c90d1ce2211782ac568cc38d7e614015ce762a14ef919b858eca693c6526fff"
     },
     "muni_ff": {
       "state": "unchanged",
-      "checkedAt": "2026-11-21T13:30:12.789347+00:00",
+      "checkedAt": "2026-11-22T13:23:24.573040+00:00",
       "http": "ok",
       "sha256": "e6d8721c037154b4add80c10f30ecaa592e1e165818334270619cf97ccea9b80"
     }
